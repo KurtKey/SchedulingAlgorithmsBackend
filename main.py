@@ -1,11 +1,11 @@
 # main.py
 from FCFS.FCFS import fcfs
-from LLF.llf_runner import llf_function
-from EDF.edf_runner import edf_function
+from LLF.llf import llf_function
+from EDF.edf import edf_function
 from SJF.SJF_without_preemption import sjf_without_preemption
 from preemptif_SJF.SJF_with_preemption import sjf_with_preemption
-from RM.rm_runner import rm_runner
-from DM.dm_runner import dm_runner
+from RM.rm import rm_runner
+from DM.dm import dm_runner
 
 from fastapi import FastAPI
 from pydantic import BaseModel

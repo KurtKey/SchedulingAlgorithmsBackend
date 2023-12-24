@@ -3,6 +3,7 @@ import requests
 # Define the API endpoint
 api_url = "http://127.0.0.1:8000/schedule"
 
+
 # Example data for the request
 request_data = {
     "algorithm": "sjf without preemption",
